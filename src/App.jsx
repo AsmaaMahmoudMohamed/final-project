@@ -28,7 +28,7 @@ import SubCategories from './components/SubCategories/SubCategories';
 import WishlistContextProvider from './Context/WishlistContext';
 import Wishlist from './components/Wishlist/Wishlist';
 
- import Forgetpassword from './components/ForgetPassword/Forgetpassword';
+ import Forgetpassword from './components/Forgetpassword/Forgetpassword';
 
 
 
