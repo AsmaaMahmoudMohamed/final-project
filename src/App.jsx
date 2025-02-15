@@ -51,7 +51,7 @@ let x = createBrowserRouter([
 
     {path : "updateuser", element:   <>  < UpdateUser/>  </>},
     {path : "resetcode", element:   <>  < ResetCode/>  </>},
-    {path : "forgetpassword", element:   <>  < Forgetpassword/>  </>},
+    {path : "forgetpassword", element:     < Forgetpassword/>  },
     {path : "wishlist", element:   <ProtectedRoute>   < Wishlist/>  </ProtectedRoute>   },
     {path : "brands"  , element:    < Brands/>    },
     { path : "login" , element : < Login/>},
