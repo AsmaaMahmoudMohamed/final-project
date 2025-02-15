@@ -77,7 +77,7 @@ function signout(){
                
                <ul className='flex gap-4'>
                {userLogin != null ?   <li> <span onClick={signout}  className="cursor-pointer text-sm" >  Signout</span> </li> :  <>  
-               {/* <li> <Link to="forgetpassword">  forgetpassword</Link></li> */}
+            
                <li> <Link to="login">  Login</Link></li>
                 <li> <Link to="register">  Register</Link></li>
               

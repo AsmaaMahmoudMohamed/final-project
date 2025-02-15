@@ -26,7 +26,7 @@ export default function Login() {
 const [ApiError, setApiError] = useState("")
 const [isLoding, setisLoding] = useState(false)
 //////////////////////////////////////////////////////why sent me to login page////////////////////////
-function forgetpassword(){
+function Forgetpassword(){
 
   setuserLogin  (null);
   navigate("/forgetpassword");
@@ -169,7 +169,7 @@ let myValidation = Yup.object().shape ({
           {isLoding ? <i className="fas fa-spinner fa-spain"> </i> : "Register"}
           </button>
           <Link to = {"/register"}> <span  className="text-blue-500 underline"  > Do you have an account? Register now</span> </Link>
-          <span onClick={forgetpassword}  className="text-blue-500 underline cursor-pointer"  > forget your password ?</span> 
+          <span onClick={Forgetpassword}  className="text-blue-500 underline cursor-pointer"  > forget your password ?</span> 
            </div>
            
 
