@@ -28,6 +28,8 @@ import SubCategories from './components/SubCategories/SubCategories';
 import WishlistContextProvider from './Context/WishlistContext';
 import Wishlist from './components/Wishlist/Wishlist';
 import Forgetpassword from './components/ForgetPassword/Forgetpassword';
+// import Forgetpassword from './components/ForgetPassword/Forgetpassword';
+
 
 
 
@@ -51,7 +53,7 @@ let x = createBrowserRouter([
 
     {path : "updateuser", element:   <>  < UpdateUser/>  </>},
     {path : "resetcode", element:   <>  < ResetCode/>  </>},
-    {path : "forgetpassword", element:     < Forgetpassword/>  },
+    {path : "forgetpassword", element: < Forgetpassword/>},
     {path : "wishlist", element:   <ProtectedRoute>   < Wishlist/>  </ProtectedRoute>   },
     {path : "brands"  , element:    < Brands/>    },
     { path : "login" , element : < Login/>},

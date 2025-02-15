@@ -1,5 +1,5 @@
 
-import style from "./Forgetpassword.module.css";
+// import style from "./Forgetpassword.module.css";
 
 
 import React, { useContext, useState } from "react";
